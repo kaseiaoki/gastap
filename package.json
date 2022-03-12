@@ -1,0 +1,37 @@
+{
+  "name": "gastap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@picocss/pico": "^1.4.4",
+    "next": "latest",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^11.0.1",
+    "next-sitemap": "^1.6.140"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 100
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaseiaoki/gastap"
+  },
+  "author": "",
+  "license": "ISC"
+}
